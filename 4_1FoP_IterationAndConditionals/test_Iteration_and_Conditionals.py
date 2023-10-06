@@ -1,4 +1,4 @@
-from blankquestions.Iteration_and_Conditionals import *
+from Iteration_and_Conditionals import *
 def test_getSumOfString1():
     assert getSumOfString("10 2 5 3") == 20
 
@@ -6,7 +6,7 @@ def test_getSumOfString2():
     assert getSumOfString("1") == 1
 
 def test_getSumOfString3():
-    assert getSumOfString("10 -12 03") == 1
+    assert getSumOfString("10 -12 40004") == 40002
 
 def test_reorder1():
     assert reorder("ZzAa") == "AaZz"
@@ -17,7 +17,7 @@ def test_reorder2():
 def test_reorder3():
     assert reorder("ZzyYXxwWzZabc") == "abcwWXxyYZzzZ"
 
-def test_reorder3():
+def test_reorder4():
     assert reorder("ZzyYXxwWzZabc") == "abcwWXxyYZzzZ"
 
 def test_orderAndDeleteDuplicates1():
